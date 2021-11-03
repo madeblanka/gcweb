@@ -1,0 +1,1 @@
+setInterval(function () { var div = document.querySelector("#counter"); var count = div.textContent * 1 - 1; div.textContent = count; if (count <= 0) { window.location.replace("http://localhost/gc/front/user/dashboard"); } }, 1000);
